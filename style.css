@@ -1,0 +1,51 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf);
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.left-picture {
+    background-image: url("halie-west-trees.jpg");
+    background-color: transparent;
+    background-origin: border-box;
+    background-size: cover; 
+    width: 50vw;
+}
+
+.banner {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    height: 15vh;
+    margin-top: 25vh;
+    color: white;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.banner > h1 {
+    font-family: norse; 
+    font-size: 4rem;
+}
+
+.subtitle {
+    margin-top: 55vh;
+    color: white; 
+    font-size: 0.6rem; 
+    text-align: center;
+}
+
+.right-form {
+
+}
