@@ -103,6 +103,15 @@ input {
     border-radius: 4px; 
 }
 
+input:focus {
+    border-color: blue; 
+    box-shadow: 5px 5px 10px grey;
+}
+
+input:invalid {
+    border-color: red;
+  }
+
 .submit-block {
     padding: 2vw; 
 }
