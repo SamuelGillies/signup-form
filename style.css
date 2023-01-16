@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-
 }
 
 .left-picture {
@@ -32,9 +31,10 @@
 
 .logo {
     height: 10vh;
+    padding-right: 10px; 
 }
 
-.banner > h1 {
+.banner > p {
     font-family: norse; 
     font-size: 4rem;
 }
@@ -42,8 +42,10 @@
 .subtitle {
     margin-top: 55vh;
     color: white; 
-    font-size: 0.6rem; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem; 
     text-align: center;
+    opacity: 0.8;
 }
 
 .right-form {
