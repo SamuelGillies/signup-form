@@ -145,4 +145,13 @@ a:link, a:hover a:active a:visited {
     .banner {
         margin-top: 18vh;
     }
+
+    .header {
+        margin-top: 2vh;
+    }
+
+    .inputs {
+        width: 100%;
+        padding-bottom: 1.5rem; 
+    }
 }
