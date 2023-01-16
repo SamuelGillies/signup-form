@@ -3,6 +3,36 @@
     src: url(Norse-Bold.otf);
 }
 
+.main-font {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+
+}
+
+.label-font {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    color:rgb(146, 145, 145)
+}
+
+.paragraph-font {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.subtitle-font {
+    margin-top: 55vh;
+    color: white; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem; 
+    text-align: center;
+    opacity: 0.8;
+}
+
 #content {
     display: flex;
     flex-direction: row;
@@ -14,7 +44,7 @@
     background-color: transparent;
     background-origin: border-box;
     background-size: cover; 
-    width: 50vw;
+    width: 70vw;
 }
 
 .banner {
@@ -39,15 +69,71 @@
     font-size: 4rem;
 }
 
-.subtitle {
-    margin-top: 55vh;
-    color: white; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.7rem; 
-    text-align: center;
-    opacity: 0.8;
+.right-form {
+    background-color: rgba(247, 244, 244, 1.);
 }
 
-.right-form {
+.header {
+    margin-top: 10vh;
+    padding: 2vw;
+}
 
+.form-block {
+    padding: 2vw; 
+    background-color: white;
+    box-shadow: 0px 5px 10px -2px rgb(158, 158, 158);
+}
+
+form {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.inputs {
+    display: flex; 
+    flex-direction: column; 
+    padding-right: 3vw; 
+    padding-bottom: 1vw; 
+    width: 25vw;
+    line-height: 2vh;
+}
+
+input {
+    border-radius: 4px; 
+}
+
+.submit-block {
+    padding: 2vw; 
+}
+
+#submit {
+    background-color: #596D48; 
+    color: white; 
+    padding: 10px 40px;  
+    border-radius: 10px;
+    margin: 20px 0px; 
+}
+
+a:link, a:hover a:active a:visited {
+    color: #596D48;
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) { 
+
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-picture {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .banner {
+        margin-top: 18vh;
+    }
 }

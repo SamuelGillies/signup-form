@@ -14,23 +14,45 @@
                 <img class="logo" src="odin-lined.png"> 
                 <p>ODIN</p>
             </div>
-            <p class="subtitle">Photo by Halie West on Unsplash</p>
+            <p class="subtitle-font">Photo by Halie West on Unsplash</p>
         </div>
         <div class="right-form">
-            <div>
-                <p>This is not a real service! You know you need something like this in your life to help you realise your deepest dreams. <br>Sign up <i>now</i> to get started. <br><br>You <i>know</i> you want to.</p>
-                <form>
-                    <p>Let's do this!</p>
-                    <label>First name<input></label>
-                    <label>Last name<input></label>
-                    <label>Email<input></label>
-                    <label>Phone number<input></label>
-                    <label>Password<input></label>
-                    <label>Confirm password<input></label>
+            <div class="header">
+                <p class="main-font">This is not a real service! You know you need something like this in your life to help you realise your deepest dreams. <br>Sign up <i>now</i> to get started. <br><br>You <i>know</i> you want to.</p>
+            </div>
+            <div class="form-block">
+                <p class="main-font">Let's do this!</p>
+                <form action="http://httpbin.org/post" method="post">
+                    <div class="inputs">
+                        <label class="label-font" for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name">
+                    </div>
+                    <div class="inputs">
+                        <label class="label-font" for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name">
+                    </div>
+                    <div class="inputs">
+                        <label class="label-font" for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="inputs">
+                        <label class="label-font" for="phone_number">PHONE NUMBER</label>
+                        <input type="text" id="phone_number">
+                    </div>
+                    <div class="inputs">
+                        <label class="label-font" for="password">PASSWORD</label>
+                        <input type="password" id="first_name">
+                    </div>
+                    <div class="inputs">
+                        <label class="label-font" for="password_confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="password_confirm">
+                    </div>
                 </form>
-                <button>Create Account</button>
+            </div>
+            <div class="submit-block">
+                <button id="submit">Create Account</button>
                 <div>
-                    <p>Already have an account? <a>Log in</a></p>
+                    <p class="paragraph-font">Already have an account? <a href="www.link.com">Log in</a></p>
                 </div>
             </div>
         </div>    
